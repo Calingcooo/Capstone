@@ -13,8 +13,8 @@
     </head>
     <body>
     
-    <livewire:nav-bar /> 
-
+        <livewire:nav-bar /> 
+        <livewire:footer />
         @livewireScripts
     </body>
 </html>
