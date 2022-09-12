@@ -12,9 +12,9 @@
         @livewireStyles
     </head>
     <body>
-    
-        <livewire:nav-bar /> 
-        <livewire:footer />
+        <livewire:components.navbar /> 
+        {{ $slot }}
+        <livewire:components.footer />
         @livewireScripts
     </body>
 </html>
