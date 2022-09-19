@@ -1,7 +1,7 @@
-<footer class="flex flex-col items-center justify-between p-6 bg-white dark:bg-gray-900 sm:flex-row">
-    <a href="#" class="text-xl font-bold text-gray-600 transition-colors duration-300 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">LOGO</a>
+<footer class="flex flex-col items-center justify-between p-6 bg-green-800  sm:flex-row">
+    <a href="/" class="text-xl font-bold text-emerald-50 transition-colors duration-300 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">LOGO</a>
 
-    <p class="text-sm text-gray-600 dark:text-gray-300">© Copyright 2022. All Rights Reserved.</p>
+    <p class="text-sm text-emerald-50 dark:text-gray-300">© Copyright 2022. All Rights Reserved.</p>
 
     <div class="flex -mx-2">
         <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Reddit">
