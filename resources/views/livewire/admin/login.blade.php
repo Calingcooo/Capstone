@@ -2,22 +2,42 @@
 @vite('resources/css/app.css')
 
 
-<div class="flex justify-center items-center w-screen h-full">
-    <div class="flex flex-col border-neutral-500 border-2 w-full h-full rounded-lg grid-cols-2 
-            sm:flex-col md:flex-row md:w-4/5 md:h-3/4 ">
-        <!-- LEFT IMAGE -->
-        <div class="order-1 bg-slate-800 h-1/2 w-1/2 md:w-full md:h-full">
+<div class="flex items-center">
 
+    <div class="w-full max-w-sm p-6 m-auto mx-auto bg-white rounded-md shadow-md md:w-1/2">
+
+        <!-- LOGO -->
+        <div>
+            <img src="images/Logo.png" alt="" class="w-full h-20" />
         </div>
 
-        <div class="order-2 flex justify-center items-center bg-slate-500 h-1/2 w-1/2  md:w-full md:h-full">
-        <form class="w-full flex flex-col">
-            <h1>LOGIN</h1>
-            <input class="mt-5" type="text" placeholder="Enter your branch no.">
-            <input class="mt-2" type="password" placeholder="Password">
-            <button class="bg-blue-500 px-5 py-2 mt-2"type="submit">Sign In</button>
+        <!-- FORM -->
+        <form class="mt-6">
+            <div>
+                <label for="username" class="block text-sm text-gray-800">Username</label>
+                <input type="text" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
+            </div>
+
+            <div class="mt-4">
+                <div class="flex items-center justify-between">
+                    <label for="password" class="block text-sm text-gray-800">Password</label>
+                </div>
+                <input type="password" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
+                
+                <div class="mt-3">
+                    <a href="#" class="text-xs text-gray-600 hover:underline">Forget Password?</a>
+                </div>
+            </div>
+
+            <div class="mt-6">
+                <button class="w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
+                    Login
+                </button>
+            </div>
+            
+            <div class="mt-3 text-center">
+                <a href="#" class="text-xs text-blue-600 hover:underline">Already Registered?</a>
+            </div>
         </form>
-        </div>
     </div>
-
 </div>
