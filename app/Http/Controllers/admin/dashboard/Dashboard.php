@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     public function admin () {
-        return view('livewire.admin.login');
+        return view('livewire.admin..dashboard.dashboard');
     }
 }
